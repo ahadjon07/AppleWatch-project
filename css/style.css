@@ -1,0 +1,240 @@
+/* GLOBAL */
+
+* {
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: 1px dashed #565611;
+  outline-offset: 3px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1060px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* HEADER */
+.site-header {
+}
+.site-header-container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.site-logo {
+}
+.site-logo-img {
+  display: flex;
+}
+.sitenav {
+  display: flex;
+  align-items: center;
+}
+.sitenav-list {
+  display: flex;
+  list-style: none;
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 30px;
+}
+.sitenav-link {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 23px;
+  color: #333333;
+}
+.site-helper-link {
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 23px;
+  color: #666666;
+  border-bottom: 1px solid #333333;
+}
+
+p {
+  border-right: 1px;
+  color: #565611;
+}
+/* MAIN */
+.main-content {
+}
+.intro {
+}
+.intro-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro-info {
+  max-width: 490px;
+  width: 100%;
+}
+.intro-heading {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.intro-text {
+  width: 450px;
+  border-left: 3px solid #888888;
+  color: #777777;
+  padding-right: 40px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-left: 40px;
+}
+.main-btn {
+  background-color: #ea625c;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  margin-top: 30px;
+}
+.intro-btn {
+  padding: 12px 38px;
+  margin-bottom: 185px;'
+}
+.intro-img {
+  width: 587px;
+  height: 565px;
+  margin-left: 245px;
+  margin-right: -197px;
+  margin-bottom: 0;
+}
+.border-line {
+  margin: 0;
+  border: 2px solid #dddddd;
+}
+/* FEATURES */
+.features {
+
+}
+.features-content-container {
+  padding-top: 68px;
+  padding-bottom: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.features-item {
+  width: 280px;
+}
+.features-heading {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #222;
+  text-transform: uppercase;
+}
+.features-text {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333;
+}
+.dost-divider {
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dost-div-item {
+  width: 8px;
+  height: 8px;
+  background-color: #ddd;
+}
+.learn-more {
+  width: 149px;
+  display: flex;
+  align-items: center;
+}
+.feature-line {
+  width: 40px;
+  height: 0px;
+  border: 3px solid #ea625c;
+}
+.learning-text {
+  width: 99px;
+  margin-left: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  color: #ea625c;
+  /* text-transform: uppercase; */
+}
+/* INFO */
+.info {
+}
+.info-container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+}
+.intro-info {
+  margin-right: 110px;
+}
+.intro-text {
+  width: 450px;
+}
+.info-btn {
+  width: 260px;
+  padding: 12px 90px;
+}
+.info-img {
+  width: 400px;
+  height: 600px;
+  display: flex;
+}
+/* EXPLORE */
+.explore {
+  height: 830px;
+  background: url(../images/runners\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.explore-container {
+}
+.position {
+  position: absolute;
+  top: 2089px;
+  left: 635px;
+}
+.intro-text {
+}
+.white {
+  color: #fff;
+}
+.explore-btn {
+  width: 260px;
+  padding: 12px 46px;
+}
